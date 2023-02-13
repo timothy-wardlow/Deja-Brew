@@ -87,6 +87,10 @@ ul {
 
 header {
   background: var(--primary);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  opacity: .8;
 }
 
 li {
@@ -160,6 +164,18 @@ input:focus {
   justify-content: center;
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-one);
+}
+
+.banner {
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+
+}
+
+.prolist{
+  margin-top: 15vh;
 }
 
 .container {
@@ -241,9 +257,17 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
+  header{
+    // position: absolute;
+    opacity: 1;
+  }
+
   nav{
     font-size: small;
     margin-top: 3vh;
+  }
+  .banner{
+    margin-top: 20vh;
   }
   .card {
     width: 100%;
