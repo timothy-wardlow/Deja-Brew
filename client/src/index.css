@@ -25,8 +25,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark);
-  background-color: var(--tertiary);
+  /* color: var(--dark);
+  background-color: var(--tertiary); */
 }
 
 h1,
@@ -82,6 +82,7 @@ a:hover {
 
 ul {
   list-style-type: none;
+  justify-content: center;
 }
 
 header {
@@ -120,11 +121,6 @@ img {
   max-width: 100%;
 }
 
-.Logo{
-  height: auto;
-  width: 140px;
-}
-
 span[role="img"] {
   cursor: default;
 }
@@ -145,6 +141,15 @@ input {
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+.Logo{
+  height: auto;
+  width: 5vw;
+}
+.Nav1{
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-one);
 }
 
 .container {
@@ -219,5 +224,13 @@ input:focus {
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
+  }
+  .Logo {
+    height: auto;
+    width: 100vw;
+  }
+  .Nav1{
+    margin-top: 10px;
+
   }
 }
