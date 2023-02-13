@@ -155,6 +155,9 @@ input:focus {
   border-bottom: none;
 }
 .Nav1{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-one);
 }
@@ -238,14 +241,21 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
+  nav{
+    font-size: small;
+    margin-top: 3vh;
+  }
   .card {
     width: 100%;
   }
   .Logo {
+    display: flex;
+    flex-wrap: wrap;
     height: auto;
-    width: 100vw;
+    width: 25vw;
   }
   .Nav1{
+    display: none;
     margin-top: 10px;
 
   }

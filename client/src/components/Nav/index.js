@@ -2,6 +2,7 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 import Logo from './../../assets/logo.png';
+import CategoryMenu from "../CategoryMenu";
 
 function Nav() {
 
@@ -30,7 +31,11 @@ function Nav() {
               Products
             </Link>
           </li>
-
+          <li className="mx-1">
+            <Link to="/Products">
+            <CategoryMenu />
+            </Link>
+          </li>
         </ul>
       );
     } else {
@@ -56,6 +61,11 @@ function Nav() {
           <li className="mx-1">
             <Link to="/Products">
               Products
+            </Link>
+          </li>
+          <li className="mx-1">
+            <Link to="/Products">
+            <CategoryMenu />
             </Link>
           </li>
 
