@@ -89,8 +89,12 @@ header {
   background: var(--primary);
 }
 
+li {
+  color: var(--tertiary);
+}
+
 header a {
-  color: var(--light);
+  color: var(--tertiary);
 }
 
 button {
@@ -119,6 +123,8 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  border-top-right-radius: .4rem;
+  border-top-left-radius: .4rem;
 }
 
 span[role="img"] {
@@ -145,7 +151,8 @@ input:focus {
 
 .Logo{
   height: auto;
-  width: 5vw;
+  width: 7vw;
+  border-bottom: none;
 }
 .Nav1{
   margin-right: var(--spacing-two);
@@ -213,8 +220,17 @@ input:focus {
 }
 
 .card {
-  width: 25%;
+  width: 23%;
   text-align: center;
+  border: 1px solid;
+  margin: .4rem;
+  margin-bottom: 1.5rem;
+  border-radius: .4rem;
+  background-color: var(--primary);
+  padding: 0;
+  color: var(--secondary);
+  padding-bottom: .2rem;
+  box-shadow: 1px 1px 3px #100F0F;
 }
 
 .error-text {
