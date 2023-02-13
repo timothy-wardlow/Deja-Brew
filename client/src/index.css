@@ -26,6 +26,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
+  background-color: var(--tertiary);
 }
 
 h1,
@@ -76,7 +77,11 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 header {
@@ -91,16 +96,19 @@ button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: .2rem;
   border: none;
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 button:hover {
   opacity: .8;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 button[disabled] {
@@ -113,7 +121,8 @@ img {
 }
 
 .Logo{
-  height: 100vh;
+  height: auto;
+  width: 140px;
 }
 
 span[role="img"] {
