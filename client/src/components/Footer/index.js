@@ -19,19 +19,6 @@ function Footer() {
             rel="noreferrer"
           >
             <FontAwesomeIcon
-              icon={faCoffee}
-              color="#827397"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/timothy-wardlow/Deja-Brew"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon
               icon={faGithub}
               color="#827397"
               className="anchor-icon"
