@@ -29,8 +29,10 @@ function Login(props) {
     });
   };
 
-  return (
-    <div className="container my-1">
+  return (<>
+    <div className='flex-row '>
+
+    <div className="container2  my-1">
       <Link to="/signup">← Go to Signup</Link>
 
       <h2>Login</h2>
@@ -66,6 +68,8 @@ function Login(props) {
       </form>
     </div>
   );
+  </div>
+    </>);
 }
 
 export default Login;

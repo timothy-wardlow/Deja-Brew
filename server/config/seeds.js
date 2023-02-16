@@ -5,11 +5,9 @@ db.once('open', async () => {
   await Category.deleteMany();
 
   const categories = await Category.insertMany([
-    { name: 'Food' },
-    { name: 'Household Supplies' },
-    { name: 'Electronics' },
-    { name: 'Books' },
-    { name: 'Toys' }
+    { name: 'Coffee' },
+    { name: 'Merchandise' },
+    { name: 'Subscriptions' },
   ]);
 
   console.log('categories seeded');
@@ -18,112 +16,77 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Deja Brew - Light Roast',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+        'A light roast from Ethiopia with tasting notes of lemon and blueberry, with a floral aroma and a delicate body. The acidity is high, but not overpowering, making for a clean and refreshing cup of coffee. The light roast allows for the subtle nuances of the coffee to shine through, making it a great option for those who want to experience the full flavor profile of the bean.',
+      image: 'light-roast.png',
       category: categories[0]._id,
-      price: 2.99,
+      price: 12.99,
       quantity: 500
     },
     {
-      name: 'Canned Coffee',
+      name: 'Deja Brew - Dark Roast',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'canned-coffee.jpg',
+        'A dark roast from Colombia with tasting notes of dark chocolate, caramel, and a smoky finish. The body is full and rich, with low acidity and a pleasant bitterness that lingers on the palate. The dark roast caramelizes the natural sugars in the bean, resulting in a more pronounced bitterness and a fuller body.',
+      image: 'dark-roast.png',
       category: categories[0]._id,
-      price: 1.99,
+      price: 12.99,
       quantity: 500
     },
     {
-      name: 'Toilet Paper',
-      category: categories[1]._id,
+      name: 'Deja Brew - Groundhog Blend',
+      category: categories[0]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
-      price: 7.99,
-      quantity: 20
+        'A blended roast made with beans from Brazil and Guatemala may offer tasting notes of milk chocolate, toasted nuts, and a subtle hint of citrus. The body is medium, with a balanced acidity that enhances the sweetness of the chocolate notes. The Brazilian beans contribute to the rich and creamy mouthfeel, while the Guatemalan beans add a bright and fruity complexity.',
+      image: 'groundhog.png',
+      price: 12.99,
+      quantity: 500
     },
     {
-      name: 'Handmade Soap',
+      name: 'Deja Brew T-Shirt',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
-      price: 3.99,
-      quantity: 50
-    },
-    {
-      name: 'Set of Wooden Spoons',
-      category: categories[1]._id,
-      description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
-      price: 14.99,
+        'Introducing the Deja Brew t-shirt, the perfect addition to your wardrobe! Made from high-quality, soft cotton, this t-shirt is comfortable and durable, perfect for everyday wear. The classic design features the Deja Brew logo on the front, making it a stylish way to show your support.',
+      image: 'tshirt.png',
+      price: 19.99,
       quantity: 100
     },
     {
-      name: 'Camera',
-      category: categories[2]._id,
+      name: 'Deja Brew Coffee Mug',
+      category: categories[1]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: 'camera.jpg',
-      price: 399.99,
-      quantity: 30
+        "The Deja Brew coffee mug is microwave and dishwasher safe, making it easy to use and care for. The comfortable handle and generous 16-ounce capacity make it easy to hold and enjoy your favorite hot beverage, whether you're sipping coffee in the morning or relaxing with a cup of tea in the evening.",
+      image: 'mug.png',
+      price: 9.99,
+      quantity: 100
     },
     {
-      name: 'Tablet',
+      name: 'Monthly Subscription - 1 bag / month',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
-      price: 199.99,
-      quantity: 30
+        "Introducing our coffee subscription service, the perfect way to enjoy a variety of high-quality, freshly roasted coffees delivered right to your door! With our subscription service, you'll receive a new selection of premium coffee(s) each month, carefully curated from around the world by our expert roasters. In addition to great coffee, our subscription service offers the convenience of automatic deliveries, so you'll never run out of your favorite brew. The price listed is the monthly total for the service.",
+      image: 'logo.png',
+      price: 12.99,
+      quantity: 100
     },
     {
-      name: 'Tales at Bedtime',
+      name: 'Monthly Subscription - 2 bags / month',
+      category: categories[2]._id,
+      description:
+      "Introducing our coffee subscription service, the perfect way to enjoy a variety of high-quality, freshly roasted coffees delivered right to your door! With our subscription service, you'll receive a new selection of premium coffee(s) each month, carefully curated from around the world by our expert roasters. In addition to great coffee, our subscription service offers the convenience of automatic deliveries, so you'll never run out of your favorite brew. The price listed is the monthly total for the service.",
+      image: 'logo.png',
+      price: 21.99,
+      quantity: 100
+    },
+    {
+      name: 'Monthly Subscription - 3 bags / month',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'bedtime-book.jpg',
-      price: 9.99,
+      "Introducing our coffee subscription service, the perfect way to enjoy a variety of high-quality, freshly roasted coffees delivered right to your door! With our subscription service, you'll receive a new selection of premium coffee(s) each month, carefully curated from around the world by our expert roasters. In addition to great coffee, our subscription service offers the convenience of automatic deliveries, so you'll never run out of your favorite brew. The price listed is the monthly total for the service.",
+      image: 'logo.png',
+      price: 29.99,
       quantity: 100
     },
-    {
-      name: 'Spinning Top',
-      category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
-      quantity: 1000
-    },
-    {
-      name: 'Set of Plastic Horses',
-      category: categories[4]._id,
-      description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
-      price: 2.99,
-      quantity: 1000
-    },
-    {
-      name: 'Teddy Bear',
-      category: categories[4]._id,
-      description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
-      price: 7.99,
-      quantity: 100
-    },
-    {
-      name: 'Alphabet Blocks',
-      category: categories[4]._id,
-      description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
-    }
   ]);
 
   console.log('products seeded');
@@ -131,10 +94,10 @@ db.once('open', async () => {
   await User.deleteMany();
 
   await User.create({
-    firstName: 'Pamela',
-    lastName: 'Washington',
-    email: 'pamela@testmail.com',
-    password: 'password12345',
+    firstName: 'Tim',
+    lastName: 'Wardlow',
+    email: 'tw@dejabrew.com',
+    password: 'password123',
     orders: [
       {
         products: [products[0]._id, products[0]._id, products[1]._id]
@@ -143,10 +106,10 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Elijah',
-    lastName: 'Holt',
-    email: 'eholt@testmail.com',
-    password: 'password12345'
+    firstName: 'Andrew',
+    lastName: 'Simmons',
+    email: 'as@dejabrew.com',
+    password: 'password123'
   });
 
   console.log('users seeded');

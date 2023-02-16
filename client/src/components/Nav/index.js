@@ -2,6 +2,7 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 import Logo from './../../assets/logo.png';
+import CategoryMenu from "../CategoryMenu";
 
 function Nav() {
 
@@ -11,14 +12,29 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/orderHistory">
-              Order History
+              <button>History</button>
             </Link>
           </li>
           <li className="mx-1">
             {/* this is not using the Link component to logout or user and then refresh the application to the start */}
             <a href="/" onClick={() => Auth.logout()}>
-              Logout
+              <button>Login</button>
             </a>
+          </li>
+          <li className="mx-1">
+            <Link to="/">
+              <button>Home</button>
+            </Link>
+          </li>
+          <li className="mx-1">
+            <Link to="/Products">
+              <button>Products</button>
+            </Link>
+          </li>
+          <li className="mx-1">
+            <Link to="/Products">
+            <CategoryMenu />
+            </Link>
           </li>
         </ul>
       );
@@ -27,14 +43,32 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/signup">
-              Signup
+              <button>Signup</button>
             </Link>
           </li>
           <li className="mx-1">
             <Link to="/login">
-              Login
+              <button>Login</button>
             </Link>
           </li>
+
+
+          <li className="mx-1">
+            <Link to="/">
+              <button>Home</button>
+            </Link>
+          </li>
+          <li className="mx-1">
+            <Link to="/Products">
+              <button>Products</button>
+            </Link>
+          </li>
+          <li className="mx-1">
+            <Link to="/Products">
+            <CategoryMenu className="mx-1"/>
+            </Link>
+          </li>
+
         </ul>
       );
     }
