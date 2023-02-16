@@ -213,9 +213,10 @@ input:focus {
 .container {
   width: 100vw;
 }
-// .pro1{
-//   margin-top: 25vh;
-// }
+
+.container1{
+  width: 100vw;
+}
 
 .flex-row {
   display: flex;
@@ -292,6 +293,19 @@ input:focus {
   color: var(--error);
 }
 
+.side1{
+  padding: 1%;
+  width: 48vw;
+  margin: 1%;
+  margin-right: 0;
+  background-color: var(--light);
+}
+
+.side2{
+  width: 48vw;
+  margin: 1%;
+}
+
 @media screen and (max-width: 768px) {
   header{
     // position: absolute;
@@ -322,4 +336,15 @@ input:focus {
   .opener{
     display: none;
   }
+  .container1{
+    flex-direction: column;
+  }
+  .side1{
+    width: 100vw;
+  }
+  .side2{
+    width: 100vw;
+  }
 }
+
+
