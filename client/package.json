@@ -16,16 +16,16 @@
     "@testing-library/user-event": "^7.2.1",
     "animate.css": "^4.1.1",
     "jquery": "^3.6.3",
-    "graphql": "^14.6.0",
+    "graphql": "^16.6.0",
     "jwt-decode": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "4.0.2",
+    "react-scripts": "^5.0.1",
     "sass": "^1.57.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": " PORT=4000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
