@@ -306,6 +306,46 @@ input:focus {
   margin: 1%;
 }
 
+.footer{
+  background-color: var(--primary);
+  text-align: center;
+ //  height: 10vh;
+  width: 100vw;
+  color: var(--light);
+  font-size: .8rem;
+  padding: .5%;
+  font-style: italic;
+  justify-content: space-evenly;
+    li {
+     display: inline-block;
+     flex-direction: row;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 0;
+     margin-bottom: 0;
+     color: var(--light);
+     justify-content: space-evenly;
+   }
+  .anchor-icon{
+   justify-content: space-evenly;
+   font-size: 2rem;
+   display: inline;
+   color: var(--light);
+  }
+ 
+ }
+ .btmfoot{
+   color: var(--primary);
+   padding: 0;
+   margin-left: 0;
+   width: 100vw;
+   background-color: var(--light);
+   text-align: center;
+   font-style: italic;
+   font-size: x-small;
+ 
+  }
+
 @media screen and (max-width: 768px) {
   header{
     // position: absolute;

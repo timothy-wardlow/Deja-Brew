@@ -4,6 +4,7 @@ import ProductList from "../components/ProductList";
 import Cart from "../components/Cart";
 import 'animate.css';
 import Gallery from "../components/Gallery";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (<>
@@ -18,6 +19,7 @@ const Home = () => {
       <ProductList />
       <Cart />
     </div>
+    <Footer />
 
   </>);
 };

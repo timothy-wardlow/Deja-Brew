@@ -3,7 +3,7 @@ import ProductList from "../components/ProductList";
 // import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
 // import Gallery from "../components/Gallery";
-
+import Footer from "../components/Footer";
 
 
 const Products = () => {
@@ -15,6 +15,9 @@ const Products = () => {
       <ProductList />
       <Cart />
     </div>
+    <div className='row'>
+        <Footer />
+      </div>
   </>);
 };
 

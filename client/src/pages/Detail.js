@@ -13,6 +13,7 @@ import {
 import { QUERY_PRODUCTS } from '../utils/queries';
 import { idbPromise } from '../utils/helpers';
 import spinner from '../assets/spinner.gif';
+import Footer from '../components/Footer';
 
 function Detail() {
   const [state, dispatch] = useStoreContext();
@@ -106,15 +107,20 @@ function Detail() {
             </button>
           </p>
           </div>
-          <div className='side2 col-6'></div>
+          <div className='side2 col-6'>
 
           <img
             src={`/images/${currentProduct.image}`}
             alt={currentProduct.name}
           />
+
           </div>
         </div>
-      
+        <div className='row col-12'>
+        <Footer />
+        </div>
+        </div>
+        
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
       <Cart />
