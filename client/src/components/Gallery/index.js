@@ -3,9 +3,11 @@ import { Zoom } from "react-slideshow-image";
 import image1 from "../../assets/dark-roast.png";
 import image2 from "../../assets/light-roast.png";
 import image3 from "../../assets/groundhog.png";
+import image4 from "../../assets/tshirt.png";
+import image5 from "../../assets/mug.png";
 // style was imported in index.css
 // import "react-slideshow-image/dist/styles.css";
-const images = [image1, image2, image3 ];
+const images = [image1, image2, image3, image4, image5 ];
 
 const zoomOutProperties = {
   duration: 3000,
