@@ -65,7 +65,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         "Introducing our coffee subscription service, the perfect way to enjoy a variety of high-quality, freshly roasted coffees delivered right to your door! With our subscription service, you'll receive a new selection of premium coffee(s) each month, carefully curated from around the world by our expert roasters. In addition to great coffee, our subscription service offers the convenience of automatic deliveries, so you'll never run out of your favorite brew. The price listed is the monthly total for the service.",
-      image: 'logo.png',
+      image: '1bag.png',
       price: 12.99,
       quantity: 100
     },
@@ -74,16 +74,16 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
       "Introducing our coffee subscription service, the perfect way to enjoy a variety of high-quality, freshly roasted coffees delivered right to your door! With our subscription service, you'll receive a new selection of premium coffee(s) each month, carefully curated from around the world by our expert roasters. In addition to great coffee, our subscription service offers the convenience of automatic deliveries, so you'll never run out of your favorite brew. The price listed is the monthly total for the service.",
-      image: 'logo.png',
+      image: '2bag.png',
       price: 21.99,
       quantity: 100
     },
     {
       name: 'Monthly Subscription - 3 bags / month',
-      category: categories[3]._id,
+      category: categories[2]._id,
       description:
       "Introducing our coffee subscription service, the perfect way to enjoy a variety of high-quality, freshly roasted coffees delivered right to your door! With our subscription service, you'll receive a new selection of premium coffee(s) each month, carefully curated from around the world by our expert roasters. In addition to great coffee, our subscription service offers the convenience of automatic deliveries, so you'll never run out of your favorite brew. The price listed is the monthly total for the service.",
-      image: 'logo.png',
+      image: '3bag.png',
       price: 29.99,
       quantity: 100
     },

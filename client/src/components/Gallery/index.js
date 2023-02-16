@@ -9,7 +9,7 @@ const images = [image1, image2, image3 ];
 
 const zoomOutProperties = {
   duration: 3000,
-  transitionDuration: 500,
+  transitionDuration: 750,
   infinite: true,
   indicators: false,
   scale: 0.4,
