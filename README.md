@@ -1,7 +1,7 @@
 # Deja Brew
 
   <div align="center" id="top">
-  <img width="350px" height="300px" src="client\public\images\logo.png"/>
+  <img width="500px" height="400px" src="client\public\images\logo.png"/>
   </div> 
   
   ## USER STORY/OVERVIEW:
@@ -32,13 +32,13 @@ THEN after adding product items to your cart, there will be a checkout page wher
 
   ## TABLE OF CONTENTS:
 
- [INSTALLATION](#installation)                                       
  
  [LICENSE](#license)  
  
- [TESTS](#tests)
  
  [DEPENDENCIES](#dependencies)   
+
+ [CONTACT US](#contact-us)   
 
 ## INSTALLATION:
 
@@ -56,7 +56,7 @@ THEN after adding product items to your cart, there will be a checkout page wher
 
 ## CREDITS:
 
- Matthew Malone/
+ Matthew Malone/https://github.com/mattmalone1
 
  Jess Porter/https://github.com/jgporter24
 
@@ -69,14 +69,11 @@ THEN after adding product items to your cart, there will be a checkout page wher
 
 ## LICENSE:
 
-[![License: MIT]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
 ## HOW TO CONTRIBUTE:
-
+ BUY SOME BEANS!
  
-
-## TESTS:
-
    
 ## CONTACT US:
 
