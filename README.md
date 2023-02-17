@@ -43,7 +43,7 @@ THEN after adding product items to your cart, there will be a checkout page wher
   
  ## LIVE LINK/ MOCK-UP:
 
- GITHUB REPO:
+ ☕ GITHUB REPOSITORY:
 
   
     
@@ -54,13 +54,13 @@ THEN after adding product items to your cart, there will be a checkout page wher
 
 ## CREDITS:
 
- Matthew Malone/https://github.com/mattmalone1
+ ☕ Matthew Malone/https://github.com/mattmalone1
 
- Jess Porter/https://github.com/jgporter24
+ ☕ Jess Porter/https://github.com/jgporter24
 
- Andrew Simmons/https://github.com/asimmons03
+ ☕ Andrew Simmons/https://github.com/asimmons03
 
- Timothy Wardlow/https://github.com/timothy-wardlow
+ ☕ Timothy Wardlow/https://github.com/timothy-wardlow
 
  ## DEPENDENCIES:
 
@@ -70,7 +70,7 @@ THEN after adding product items to your cart, there will be a checkout page wher
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
 ## HOW TO CONTRIBUTE:
- BUY SOME BEANS!
+ ☕BUY SOME BEANS!
  
    
 ## CONTACT US:
