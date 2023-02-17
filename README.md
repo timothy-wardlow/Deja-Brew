@@ -75,7 +75,7 @@ THEN after adding product items to your cart, there will be a checkout page wher
    
 ## CONTACT US:
 
-<a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/Github-mattmalone1-red?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/mattmalone1" target="_blank"><img src="https://img.shields.io/badge/Github-mattmalone1-red?style=for-the-badge&logo=github"></a>
 
 <a href="https://github.com/jgporter24" target="_blank"><img src="https://img.shields.io/badge/Github-jgporter24-green?style=for-the-badge&logo=github"></a>
 
