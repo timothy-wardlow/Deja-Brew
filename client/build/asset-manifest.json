@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8adce88a.css",
+    "main.js": "/static/js/main.46cef510.js",
+    "static/media/groundhog.png": "/static/media/groundhog.84a9d7c0276bd4959864.png",
+    "static/media/light-roast.png": "/static/media/light-roast.b3d85950bc12d1590d01.png",
+    "static/media/dark-roast.png": "/static/media/dark-roast.2e70bdcf48b77b5f58c9.png",
+    "static/media/logo.jpg": "/static/media/logo.26cbc0d76bfc4838c515.jpg",
+    "static/media/tshirt.png": "/static/media/tshirt.664cca49ea2ee5ebd8da.png",
+    "static/media/mug.png": "/static/media/mug.b59e870927d7eabe9a55.png",
+    "static/media/spinner.gif": "/static/media/spinner.7e729fecb0d7593e9557.gif",
+    "index.html": "/index.html",
+    "main.8adce88a.css.map": "/static/css/main.8adce88a.css.map",
+    "main.46cef510.js.map": "/static/js/main.46cef510.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8adce88a.css",
+    "static/js/main.46cef510.js"
+  ]
+}
