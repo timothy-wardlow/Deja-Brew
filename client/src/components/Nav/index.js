@@ -1,9 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faMugHot} from '@fortawesome/free-solid-svg-icons';
-import Logo from './../../assets/logo.jpg';
+import Logo from '../../assets/t_mug_logo.png';
 import CategoryMenu from "../CategoryMenu";
 
 function Nav() {
@@ -80,11 +78,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-        <FontAwesomeIcon
-              icon={faMugHot}
-              color="#639D6B"
-              className="anchor-icon"
-            />
+        <img className="Logo" src={Logo} alt="Deja Brew" />
         </Link>
       </h1>
 
