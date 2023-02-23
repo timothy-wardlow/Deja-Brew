@@ -39,13 +39,13 @@ THEN after adding product items to your cart, there will be a checkout page wher
  [CONTACT US](#contact-us)   
 
 ## INSTALLATION:
- ☕ REACT
- ☕ NODE
- ☕ EXPRESS
- ☕ GraphQL
- ☕ MongoDB
- ☕ Heroku
- ☕ JWT
+ ☕ REACT  
+ ☕ NODE  
+ ☕ EXPRESS  
+ ☕ GraphQL  
+ ☕ MongoDB  
+ ☕ Heroku  
+ ☕ JWT  
   
  ## LIVE LINK/ MOCK-UP:
 
@@ -53,7 +53,7 @@ THEN after adding product items to your cart, there will be a checkout page wher
 
   https://github.com/timothy-wardlow/Deja-Brew
     
-<img width="700px" height="275px" src="deja-brew-gif.gif"/>
+<img width="700px" height="275px" src="/deja-brew-gif.gif"/>
 
 ## CREDITS:
 
