@@ -34,23 +34,26 @@ THEN after adding product items to your cart, there will be a checkout page wher
 
  [LICENSE](#license)  
  
- [DEPENDENCIES](#dependencies)   
+ [INSTALLATION](#installation)   
 
  [CONTACT US](#contact-us)   
 
 ## INSTALLATION:
-
+ ☕ REACT
+ ☕ NODE
+ ☕ EXPRESS
+ ☕ GraphQL
+ ☕ MongoDB
+ ☕ Heroku
+ ☕ JWT
   
  ## LIVE LINK/ MOCK-UP:
 
  ☕ GITHUB REPOSITORY:
 
-  
+  https://github.com/timothy-wardlow/Deja-Brew
     
-
-    
-<img width="700px" height="275px" src="Screen%20Shot%202022-12-16%20at%209.17.59%20PM.png"/>
-<img width="700px" height="275px" src=""/>
+<img width="700px" height="275px" src="deja-brew-gif.gif"/>
 
 ## CREDITS:
 
@@ -61,9 +64,6 @@ THEN after adding product items to your cart, there will be a checkout page wher
  ☕ Andrew Simmons/https://github.com/asimmons03
 
  ☕ Timothy Wardlow/https://github.com/timothy-wardlow
-
- ## DEPENDENCIES:
-
 
 ## LICENSE:
 
@@ -83,7 +83,4 @@ THEN after adding product items to your cart, there will be a checkout page wher
 
 <a href="https://github.com/asimmons03" target="_blank"><img src="https://img.shields.io/badge/Github-asimmons03-green?style=for-the-badge&logo=github"></a>
 
- <footer>
- <div>
-</div>
-</footer>
+
