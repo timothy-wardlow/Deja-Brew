@@ -52,6 +52,10 @@ THEN after adding product items to your cart, there will be a checkout page wher
  ☕ GITHUB REPOSITORY:
 
   https://github.com/timothy-wardlow/Deja-Brew
+  
+ ☕Link to Heroku Deployment:
+  
+  https://deja-brew-um.herokuapp.com/
     
 <img width="700px" height="325px" src="https://github.com/timothy-wardlow/Deja-Brew/blob/main/client/build/images/deja-brew-gif.gif"/>
 
